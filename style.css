@@ -39,16 +39,21 @@ img{
     height: 1000px;;
 }
 .middle{
-    border: 1px solid tomato;
-    background: url(images/female/7girl.png);
+    border:none;
+    background: url(images/female/72.png);
     background-repeat: no-repeat;
-    background-size:2000px;
+    height: 100vh;
+    width: 100%;
 }
 .about{
     font-size: 60px;
     font-family: 'Pacifico', cursive;
     font-family: 'Poppins', sans-serif;
     color: rgb(119, 118, 118);
+}
+.contant{
+    padding-top: 200px;
+    padding-left: 800px;
 }
 .my-recipie-paragraph{
     font-family: 'Pacifico', cursive;
