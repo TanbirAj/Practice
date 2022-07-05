@@ -25,7 +25,8 @@ body{
     background-image:linear-gradient(to right, rgb(255, 162, 129),rgb(235, 51, 27));
     padding: 15px 25px;
     color:white;  
-}
+    margin-top: 20px;
+    }
 .secondary-heading{
     font-size: 20px;
     font-family: 'Pacifico', cursive;
@@ -39,38 +40,108 @@ img{
 }
 .middle{
     border: 1px solid tomato;
-    background: url(images/shapes/7.png);
+    background: url(images/female/7girl.png);
     background-repeat: no-repeat;
-    background-size: auto;
-    padding: px;
+    background-size:2000px;
+}
+.about{
+    font-size: 60px;
+    font-family: 'Pacifico', cursive;
+    font-family: 'Poppins', sans-serif;
+    color: rgb(119, 118, 118);
+}
+.my-recipie-paragraph{
+    font-family: 'Pacifico', cursive;
+    font-family: 'Poppins', sans-serif;
+    width: 800px ;
+    margin: auto;
 }
 .recipie-middle{
     text-align: center;
 
 }
 .recipie-heading{
-    font-size: 80px;
+    font-size: 60px;
+    font-family: 'Pacifico', cursive;
+    font-family: 'Poppins', sans-serif;
+    color: rgb(119, 118, 118);
 }
 .recipie{
     display: flex;
+    padding-top: 50px;
 }
 .recipie-left{
+    border: none;
+    border-radius: 50px;
+    padding: 30px;
     margin-left: 130px;
+    margin-right: 15px;
+    background-color: white;
+    box-shadow: 5px 10px 80px lightgray;
 }
+
 .recipie-right {
-    margin-right: 100px;
+    border: none;
+    border-radius: 50px;
+    padding: 30px;
+    margin-right: 130px;
+    margin-left: 15px;
+    background-color: white;
+    box-shadow: 5px 10px 80px lightgray;
+}
+.recipie-box-left {
+    margin-right: 130px;
+    font-family: 'Pacifico', cursive;
+    font-family: 'Poppins', sans-serif;
+}
+.recipie-box-right {
+    margin-right: 130px;
+    font-family: 'Pacifico', cursive;
+    font-family: 'Poppins', sans-serif;
 }
 .recipie-left-1 {
     border-radius: 40px;
     height: 400px;
     width: 750px;
-    padding: 30px;
     background-color: white;
+    box-shadow: 5px 10px 80px lightgray;
 }
 .recipie-right-1{
     border-radius: 40px;
     height: 400px;
     width: 750px;
-    padding: 30px;
     background-color: white;
+    box-shadow: 5px 10px 80px lightgray;
+}
+.recipie-title-name{
+    margin-top: 20px;
+}
+h3{
+    font-size: 30px;
+    font-family: 'Pacifico', cursive;
+    font-family: 'Poppins', sans-serif;
+}
+h3, h1, p {
+    margin: 0px;
+    padding: 0px;
+}
+.footer{
+    display:flex;
+    flex-wrap: wrap;
+    border-radius: 40px;
+    background-color: white;
+    margin-bottom: 80px;
+    padding: 50px;
+    margin: 130px;
+    box-shadow: 5px 10px 80px lightgray;
+    font-family: 'Pacifico', cursive;
+    font-family: 'Poppins', sans-serif;
+   
+}
+.footer-heading{
+    font-size: 70px;
+    
+}
+.footer-contant{
+    margin: auto;
 }
