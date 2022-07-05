@@ -1,3 +1,8 @@
+body{
+    padding: 0;
+    margin: 0;
+    background-color: rgb(252, 251, 250);
+}
 .top{
     padding-left: 100px;
 }
@@ -43,14 +48,29 @@ img{
     text-align: center;
 
 }
+.recipie-heading{
+    font-size: 80px;
+}
 .recipie{
     display: flex;
 }
-.recipie-box-left{
-    border: none;
+.recipie-left{
+    margin-left: 130px;
 }
-
+.recipie-right {
+    margin-right: 100px;
+}
+.recipie-left-1 {
+    border-radius: 40px;
+    height: 400px;
+    width: 750px;
+    padding: 30px;
+    background-color: white;
+}
 .recipie-right-1{
-    height: 300px;
-    width: 600px;
+    border-radius: 40px;
+    height: 400px;
+    width: 750px;
+    padding: 30px;
+    background-color: white;
 }
