@@ -16,9 +16,9 @@
 }
 .button{
     border: none;
-    border-radius: 15px;
+    border-radius: 25px;
     background-image:linear-gradient(to right, rgb(255, 162, 129),rgb(235, 51, 27));
-    padding: 8px 15px;
+    padding: 15px 25px;
     color:white;  
 }
 .secondary-heading{
@@ -33,7 +33,24 @@ img{
     height: 1000px;;
 }
 .middle{
-    background-image: url(images/shapes/7.png);
+    border: 1px solid tomato;
+    background: url(images/shapes/7.png);
     background-repeat: no-repeat;
     background-size: auto;
+    padding: px;
+}
+.recipie-middle{
+    text-align: center;
+
+}
+.recipie{
+    display: flex;
+}
+.recipie-box-left{
+    border: none;
+}
+
+.recipie-right-1{
+    height: 300px;
+    width: 600px;
 }
